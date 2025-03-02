@@ -191,3 +191,118 @@
   color: blue;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+@media (max-width: 468px) {
+
+  .contact .contact-section .section1 img {
+      width: 100%;
+      position: relative;
+  }
+
+  .contact .section1 h1 {
+      font-size: 32px;
+      padding-top: 100px;
+      padding: 0 15px;
+      text-align: center;
+  }
+
+  .inp-section {
+      margin-top: 50px;
+      padding: 0 15px;
+  }
+
+  .info h6 {
+      font-size: 16px;
+      margin-top: 50px;
+      padding: 0 15px;
+  }
+
+  .inp-section .inp-one,
+  .inp-section .inp-two {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .inp-section .inp-one .inp1 input,
+  .inp-section .inp-one .inp2 input,
+  .inp-section .inp-two .inp1 input,
+  .inp-section .inp-two .inp2 input {
+      width: 100%;
+      height: 50px;
+      font-size: 14px;
+  }
+
+  .inp-section .inp-three input {
+      width: 100%;
+      height: 150px;
+      padding-bottom: 80px;
+      font-size: 14px;
+  }
+
+  .submit {
+      width: 100%;
+      height: 50px;
+      font-size: 16px;
+      margin-top: 20px;
+  }
+
+  .foot-section {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 50px;
+      padding: 0 15px;
+  }
+
+  .foot-section .iml-section .foto8 {
+      width: 100%;
+      height: auto;
+  }
+
+  .inr-section {
+      flex-direction: column;
+      padding: 20px;
+      align-items: flex-start;
+  }
+
+  .inr-section .inf-section {
+      margin-left: 0;
+  }
+
+  .inr-section h1 {
+      font-size: 28px;
+      padding-top: 20px;
+      text-align: center;
+      display: flex;
+      margin-left: 100px;
+  }
+
+  .inr-section .int-section {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      align-items: stretch;
+  }
+
+  .inr-section .int-section input {
+      width: 100%;
+      height: 50px;
+      font-size: 16px;
+      margin-left: 60px;
+      padding-left: 10px;
+  }
+
+  .inr-section .int-section button {
+      width: 100%;
+      height: 50px;
+      margin-left: 60px;
+
+      font-size: 16px;
+  }
+}

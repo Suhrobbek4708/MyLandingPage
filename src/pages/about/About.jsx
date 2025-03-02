@@ -28,7 +28,7 @@ const About = () => {
       </div>
       <div className="section2">
         <div className="box1">
-          <img src={foto2} alt="" />
+          <img className="foto2" src={foto2} alt="" />
           <h1>
             Hey, We are the Red Explorers <br />
             Brief History <span> About Us.</span>{" "}
@@ -47,7 +47,7 @@ const About = () => {
         </div>
       </div>
       <div className="four-section">
-        <img src={foto3} alt="" />
+        <img className="foto3" src={foto3} alt="" />
       </div>
 
       <div className="section3">
@@ -248,8 +248,8 @@ const About = () => {
         </div>
 
         <div className="int-section">
-          <input type="text" placeholder="Email Adress" />
-          <button>Subscribe</button>
+          <input className="inppp" type="text" placeholder="Email Adress" />
+          <button className="subs">Subscribe</button>
         </div>
       </div>
 

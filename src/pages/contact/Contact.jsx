@@ -65,8 +65,8 @@ const Contact = () => {
           </div>
 
           <div className="int-section">
-            <input type="text" placeholder="Email Adress" />
-            <button>Subscribe</button>
+            <input className="inpp" type="text" placeholder="Email Adress" />
+            <button className="sub">Subscribe</button>
           </div>
         </div>
 

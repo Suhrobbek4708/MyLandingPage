@@ -72,3 +72,80 @@ footer .icon .facebook:hover{
     transition: 0.5s;
     transform: scale(1.5);
 }
+
+
+
+@media screen and (max-width: 468px) {
+  /* Footer umumiy uslublari */
+  footer {
+    margin-top: 40px; /* Kichraytirilgan margin */
+    font-size: 14px;  /* Font o‘lchamini kamaytirish */
+    padding: 0 10px;
+  }
+  
+  /* Footer yuqori qismi (.red) */
+  footer .red {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  
+  footer .red nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer .red nav ul li a {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  footer .red nav ul li a.active {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  /* Footer info qismi */
+  footer .info {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  footer .info p {
+    line-height: 1.4;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  /* Footer side qismi */
+  footer .side {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Iconlar uchun sozlash */
+  footer .icon {
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Agar kerak bo'lsa, hr elementini ham moslashtirish */
+  footer hr {
+    width: 90%;
+    margin: 10px auto;
+  }
+}

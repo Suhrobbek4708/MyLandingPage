@@ -38,6 +38,18 @@ import youtube from "./youtube.png";
 import locat from "./locat.png";
 
 const Home = () => {
+
+  
+    const scrollToBottom = () => {
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
+        behavior: 'smooth',
+      });
+    };
+  
+    scrollToBottom(); // Funksiyani chaqirish
+  
+  
   return (
     <div className="home">
       {/* home section start */}
@@ -54,7 +66,7 @@ const Home = () => {
 
         <p>Scroll Down to Continue</p>
         <div className="imog">
-          <img className="btn" src={btn} alt="" />
+          <img className="btn" src={btn} alt="" onClick={scrollToBottom}  />
 
           <img className="locat" src={location} alt="" />
         </div>
@@ -214,7 +226,7 @@ const Home = () => {
         {/* nature  start */}
         <div className="nature">
           <div className="travel">
-            <img src={busy} alt="" />
+            <img className="busy" src={busy} alt="" />
             <h5>July, 15, 2021 - Tips and Tricks </h5>
             <h4>
               A traveler’s guide to Penang, Malaysia - Where to <br />
@@ -241,7 +253,7 @@ const Home = () => {
 
           <div className="septem">
             <div className="sep1">
-              <img src={beach} alt="" />
+              <img className="beach" src={beach} alt="" />
               <h5>September 17, 2021 - Tips & Tricks</h5>
               <h4>
                 Have you read The Beach <br /> by Alex?
@@ -259,7 +271,7 @@ const Home = () => {
             </div>
 
             <div className="sep2">
-              <img src={kema} alt="" />
+              <img className="kema" src={kema} alt="" />
               <h5>September 17, 2021 - Tips & Tricks</h5>
               <h4>
                 The writer actually live in <br /> Philippines
@@ -278,7 +290,7 @@ const Home = () => {
           </div>
 
           <div className="into">
-            <img src={nature} alt="" />
+            <img className="nature" src={nature} alt="" />
             <h5>September 17, 2021 - Tips & Tricks</h5>
             <h4>Finding Love & home in Tbilisi, Georgia</h4>
             <h6>
@@ -307,7 +319,7 @@ const Home = () => {
           <div className="boxlar">
             <div className="box1">
               <div className="sep2">
-                <img src={globus} alt="" />
+                <img className="globus" src={globus} alt="" />
                 <h5>September 17, 2021 - Tips & Tricks</h5>
                 <h4>
                   The writer actually live in <br /> Philippines
@@ -325,7 +337,7 @@ const Home = () => {
               </div>
 
               <div className="sep2">
-                <img src={oyna} alt="" />
+                <img className="oyna" src={oyna} alt="" />
                 <h5>September 17, 2021 - Tips & Tricks</h5>
                 <h4>
                   The writer actually live in <br /> Philippines
@@ -345,7 +357,7 @@ const Home = () => {
 
             <div className="box2">
               <div className="sep2">
-                <img src={koprik} alt="" />
+                <img className="koprik" src={koprik} alt="" />
                 <h5>September 17, 2021 - Tips & Tricks</h5>
                 <h4>
                   The writer actually live in <br /> Philippines
@@ -363,7 +375,7 @@ const Home = () => {
               </div>
 
               <div className="sep2">
-                <img src={kiyik} alt="" />
+                <img className="kiyik" src={kiyik} alt="" />
                 <h5>September 17, 2021 - Tips & Tricks</h5>
                 <h4>
                   The writer actually live in <br /> Philippines
@@ -383,7 +395,7 @@ const Home = () => {
           </div>
 
           <div className="into">
-            <img src={nature} alt="" />
+            <img className="nature" src={nature} alt="" />
             <h5>September 17, 2021 - Tips & Tricks</h5>
             <h4>Finding Love & home in Tbilisi, Georgia</h4>
             <h6>
@@ -407,7 +419,7 @@ const Home = () => {
 
           <div className="septem">
             <div className="sep1">
-              <img src={beach} alt="" />
+              <img className="beach" src={beach} alt="" />
               <h5>September 17, 2021 - Tips & Tricks</h5>
               <h4>
                 Have you read The Beach <br /> by Alex?
@@ -425,7 +437,7 @@ const Home = () => {
             </div>
 
             <div className="sep2">
-              <img src={kema} alt="" />
+              <img className="kema" src={kema} alt="" />
               <h5>September 17, 2021 - Tips & Tricks</h5>
               <h4>
                 The writer actually live in <br /> Philippines
@@ -468,8 +480,8 @@ const Home = () => {
         </div>
 
         <div className="int-section">
-          <input type="text" placeholder="Email Adress" />
-          <button>Subscribe</button>
+          <input className="inppp" type="text" placeholder="Email Adress" />
+          <button className="subs">Subscribe</button>
         </div>
       </div>
 

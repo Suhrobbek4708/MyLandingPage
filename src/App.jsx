@@ -1,5 +1,6 @@
 import "./App.css";
-
+// import { useEffect } from "react";
+// import { useLocation } from "react-router-dom";
 // import react router dom
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -14,12 +15,21 @@ import Destination from "./pages/destination/Destination";
 import Tips from "./pages/tips/Tips";
 import Contact from "./pages/contact/Contact";
 
+import ScrollToTop from "./components/ScrollToTop";
+
+
 const App = () => {
+  
+ 
+
+
+
+
   return (
     <BrowserRouter>
       <div className="app">
         {/* <h1>Travelling website</h1> */}
-
+        <ScrollToTop />
         <Header />
         {/* import pages */}
         <Routes>

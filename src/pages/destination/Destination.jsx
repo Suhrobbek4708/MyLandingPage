@@ -310,8 +310,8 @@ const Destination = () => {
         </div>
 
         <div className="int-section">
-          <input type="text" placeholder="Email Adress" />
-          <button>Subscribe</button>
+          <input className="inppp" type="text" placeholder="Email Adress" />
+          <button className="subs">Subscribe</button>
         </div>
       </div>
 

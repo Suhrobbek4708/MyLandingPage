@@ -238,3 +238,163 @@
 .inp-section .int-section {
   margin-bottom: 90px;
 }
+
+
+
+
+
+
+
+@media (max-width: 468px) {
+
+  .about .about-section .section1 img {
+      width: 100%;
+      position: relative;
+  }
+
+  .about .section1 h1 {
+      font-size: 36px;
+      margin-left: 0;
+      margin-top: 100px;
+      text-align: center;
+      line-height: 1.2;
+      padding: 0 20px;
+      color: #000;
+  }
+
+  .about .section2 {
+      flex-direction: column;
+      padding: 20px;
+      align-items: flex-start;
+  }
+
+  .about .section2 h1 {
+      font-size: 24px;
+      padding-top: 50px;
+      padding-left: 0;
+      text-align: left;
+  }
+
+  .about .section2 img {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin-top: 20px;
+      margin-left: 0;
+  }
+
+  .about .section2 h5, 
+  .about .section2 .lor {
+      font-size: 16px;
+      line-height: 28px;
+      padding-left: 0;
+      text-align: left;
+      padding-top: 20px;
+  }
+
+  .about  .four-section .foto3{
+    width: 350px;
+    height: 150px;
+  }
+
+  .about .four-section {
+      margin-top: 50px;
+      margin-left: 15px;
+  }
+
+  .about .section3 h5 {
+      padding-left: 15px;
+      padding-top: 20px;
+      font-size: 14px;
+  }
+
+  .story .box10 {
+      flex-direction: column;
+      padding: 30px 15px;
+      gap: 30px;
+  }
+
+  .story .box10 h3,
+  .story .box10 h2 {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .tesla {
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px 15px;
+      justify-content: center;
+      height: auto;
+  }
+
+  .tesla img {
+      width: 150px;
+      height: 100px;
+  }
+
+  #boxx1 {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+  }
+
+  .three-section {
+      flex-direction: column;
+      gap: 30px;
+      padding-left: 15px;
+      margin-top: 50px;
+  }
+
+  .three-section .box100 {
+      width: 360px;
+      height: auto;
+      padding: 20px;
+  }
+
+  .three-section h5 {
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+  }
+
+  .three-section .box100 h3 {
+      font-size: 22px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  .iml-section {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+  }
+
+  .iml-section .foto14,
+  .foot-section .iml-section .foto8 {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+  }
+
+  .inp-section .inf-section h1{
+    text-align: center;
+  }
+
+  .inp-section {
+      margin-top: 50px;
+      padding: 0 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .inp-section .int-section {
+      margin-bottom: 50px;
+      width: 100%;
+  }
+
+}
